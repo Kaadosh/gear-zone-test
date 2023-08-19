@@ -1,0 +1,42 @@
+.deals {
+  margin: 0;
+  margin-top: 20px;
+  color: var(--ffffff, #fff);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  &__link {
+    color: white;
+    margin-right: 3.13rem;
+    text-decoration: none;
+    outline: none;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    &:hover,
+    &:active {
+      color: white;
+      padding-bottom: 0.94rem;
+      border-bottom: 1px solid var(--ff-9839, #ff9839);
+    }
+  }
+
+  &__line {
+    width: 430px;
+    height: 1px;
+    margin-top: 0.94rem;
+    border-radius: 1px;
+    opacity: 0.2;
+  }
+}
+
+.d {
+  margin-top: 1.25rem;
+  margin-bottom: 0.88rem;
+}
+
+

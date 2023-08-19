@@ -1,0 +1,26 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--tx, #7D7781);
+}
+.page {
+  background: round url(@/assets/img/background.png) black;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 1805px;
+}
+.main {
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+}
+
+@media (min-width: 1023px) {
+  .page {
+    padding-left: 143px;
+    padding-right: 143px;
+  }
+  .main {
+    flex-wrap: nowrap;
+  }
+}

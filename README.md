@@ -21,6 +21,4 @@
    npm install
    npm run serve```
 
-https://kaadosh.github.io/gear-zone-test/
-
 
